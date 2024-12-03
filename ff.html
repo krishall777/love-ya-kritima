@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Kritima</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #fce4ec;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .rose-gif {
+            width: 200px;
+            height: 200px;
+            animation: fadeIn 3s ease-in-out forwards;
+        }
+
+        .text {
+            margin-top: 20px;
+            font-size: 2rem;
+            color: #880e4f;
+            opacity: 0;
+            animation: fadeInText 3s 3s forwards;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes fadeInText {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW9uMWxhaGRicTUwZTljNnU2aDNmdWZnb3NjaTYyY3IwNnMxbjF2byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dIlRDqv8IJNXKFM3Rz/giphy.gif" alt="Rose GIF" class="rose-gif">
+        <div class="text">
+            You are beautiful, bae! 🌹
+        </div>
+    </div>
+</body>
+</html>
